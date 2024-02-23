@@ -1,0 +1,16 @@
+epochs: 200
+batch_size: 8
+lr: 0.000005
+seed: 1
+gpu: 0
+ADNI_dir: '../ADdata/AlzheimerImagingData/ADNI_CAPS'
+checkpoint: 'checkpoint/state_0/epoch_150.pth'
+prev_checkpoint: ''
+consistency: 0.0001
+pgd_start: 21
+pgd_stop: 600
+pgd: 0.0001
+mask_start: 76
+state: 0
+epislon: 0.3
+drop_rate: 0.4
